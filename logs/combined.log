@@ -3,3 +3,5 @@
 {"level":"info","message":"Server is running on port 3000","timestamp":"2025-12-30T13:45:52.003Z"}
 {"level":"http","message":"GET /weather","timestamp":"2025-12-30T13:45:56.737Z"}
 {"code":400,"level":"error","message":"\"city\" length must be at least 2 characters long","timestamp":"2025-12-30T13:45:56.740Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-12-31T04:44:20.542Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2025-12-31T04:51:35.641Z"}
