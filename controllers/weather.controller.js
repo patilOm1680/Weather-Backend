@@ -1,4 +1,4 @@
-import logger from "../logs/logger.js";
+import logger from "../middleware/logs/logger.js";
 import { getCityWeather } from "../services/weather.service.js";
 
 export const getWeatherByCity = async (req, res) => {

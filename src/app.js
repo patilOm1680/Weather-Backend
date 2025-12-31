@@ -1,6 +1,6 @@
 import routes from "../routes/index.js";
 import express from "express";
-import logger from "../logs/logger.js";
+import logger from "../middleware/logs/logger.js";
 
 import dotenv from "dotenv";
 dotenv.config();

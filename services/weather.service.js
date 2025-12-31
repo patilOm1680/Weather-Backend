@@ -1,5 +1,5 @@
 import axios from "axios";
-import logger from "../logs/logger.js";
+import logger from "../middleware/logs/logger.js";
 
 export const getCityWeather = async (city) => {
   try {

@@ -12,7 +12,7 @@ const logger = winston.createLogger({
   format: combine(timestamp(), json()),
   transports: [
     new winston.transports.File({
-      filename: './logs/combined.log',
+      filename: './middleware/logs/combined.log',
       level: 'http'  
     }),
   ],
