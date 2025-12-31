@@ -1,6 +1,6 @@
 # Weather app-backend
 It is a backend of weather app which provides the complete weather information according to the city.
-Hosted on [Render](https://dashboard.render.com/)
+- Hosted on [Render](https://dashboard.render.com/)
 
 ## 🧰 Tech Stack
 - [Node.js](https://nodejs.org/en)
@@ -11,9 +11,8 @@ Hosted on [Render](https://dashboard.render.com/)
 
 # API endpoints
 
-Routing Service 
+- Base URL
 
-Base URL
 ```
 https://weather-79q9.onrender.com
 ```
@@ -28,7 +27,7 @@ https://weather-79q9.onrender.com/weather
 {"city":"CityName"}
 ```
 
-# Run Locally
+# ⚙️ Run Locally
 ```
 git clone git@github.com:patilOm1680/Weather-Backend.git
 ```
