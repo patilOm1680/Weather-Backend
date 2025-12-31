@@ -14,13 +14,19 @@ Hosted on [Render](https://dashboard.render.com/)
 Routing Service 
 
 Base URL
-```https://weather-79q9.onrender.com```
+```
+https://weather-79q9.onrender.com
+```
 
 - Fetch Weather Data By City (/weather)
-```https://weather-79q9.onrender.com/weather```
+```
+https://weather-79q9.onrender.com/weather
+```
 
 - Pass the City Name in Body According to following formate
-```{"city":"CityName"}```
+```
+{"city":"CityName"}
+```
 
 # Run Locally
 ```
@@ -38,7 +44,11 @@ npm install
 npm start
 ```
 - Fetch Weather Data By City (/weather)
-```http://localhost:3000/weather```
+```
+http://localhost:3000/weather
+```
 
 - Pass the City Name in Body According to following formate
-```{"city":"CityName"}```
+```
+{"city":"CityName"}
+```
