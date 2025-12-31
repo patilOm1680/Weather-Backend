@@ -15,6 +15,10 @@ const logger = winston.createLogger({
       filename: './middleware/logs/combined.log',
       level: 'http'  
     }),
+    new winston.transports.File({
+      filename: './middleware/logs/error.log',
+      level: 'error'  
+    }),
   ],
 });
 
