@@ -5,4 +5,5 @@ const router=Router();
 
 router.use('/weather',weatherRoutes)
 router.use('/temp',tempRoutes)
+
 export default router;

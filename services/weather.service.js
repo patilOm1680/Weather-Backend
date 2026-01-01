@@ -10,9 +10,9 @@ export const getCityWeather = async (city) => {
     const data = response.data;
     if (data.name.toLowerCase() !== city.toLowerCase()) {
       logger.error({
-        cod:404,
+        cod: 404,
         messege: "City not found",
-      })
+      });
       return {
         status: 404,
         data: {
@@ -21,10 +21,10 @@ export const getCityWeather = async (city) => {
         },
       };
     }
-    logger.info(`Fetching weather data for ${city} city.`)
+    logger.info(`Fetching weather data for ${city} city.`);
     return { status: 200, data: response.data };
   } catch (error) {
-    logger.error({ status: error.response.status, data: error.response.data })
+    logger.error({ status: error.response.status, data: error.response.data });
     return { status: error.response.status, data: error.response.data };
   }
 };

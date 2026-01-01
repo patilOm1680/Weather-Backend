@@ -6,3 +6,4 @@ const router=Router();
 router.get('/:city',getTempByCity)
 
 export default router;
+

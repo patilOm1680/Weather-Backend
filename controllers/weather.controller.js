@@ -24,8 +24,9 @@ export const getWeatherByCity = async (req, res) => {
       res.status(data.status).json(data.data);
     
   } catch (error) {
+
     logger.error("Error while fetching the data",error)
     // console.log("error");
-    throw new error(error)
+    throw new error("Error while fetching the data")
   }
 };
